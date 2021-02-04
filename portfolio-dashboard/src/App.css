@@ -37,20 +37,82 @@
   }
 } */
 
+.div-nav {
+  display: grid;
+  grid-template-columns: 1fr 15fr 1fr;
+  background-color: blue;
+  height: 90px;
+}
+.nav-div {
+  background-color: brown;
+}
+.nav-div3 {
+  background-color: coral;
+}
+.dv2-nav-div {
+  position: relative;
+  float: right;
+  background-color: chartreuse;
+  width: 400px;
+  height: 52px;
+  /* margin-top: 32px; */
+}
+.d2-nav {
+  position: absolute;
+  bottom: 0;
+}
+.d2-nav2 {
+  position: absolute;
+  left: 120px;
+  bottom: 0;
+}
+.d2-nav3 {
+  position: absolute;
+  left: 240px;
+  bottom: 0;
+}
+
 .div-intro {
   position: relative;
   background-color: yellow;
   font-family: Helvetica, sans-serif;
+  /* font-family: comic, cursive; */
   width: auto;
-  height: 500px;
+  height: 700px;
+}
+.dv-intro-div {
+  position: relative;
+  float: right;
+  background-color: blue;
+  width: 560px;
+  height: 65px;
+}
+.d-intro {
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+.d-intro2 {
+  position: absolute;
+  /* right: 40px; */
+  left: 120px;
+  bottom: 0;
+  cursor: pointer;
+}
+.d-intro3 {
+  position: absolute;
+  left: 240px;
+  /* right: 240px; */
+  bottom: 0;
+  cursor: pointer;
 }
 .dv-intro {
   position: absolute;
   background-color: red;
   width: 550px;
-  height: 290px;
+  height: 300px;
   margin-left: 140px;
-  margin-top: 50px;
+  margin-top: 170px;
   /* margin-bottom: 20px; */
 }
 .intro-div span {
@@ -59,7 +121,7 @@
   /* padding: 9px; */
   /* padding-top: 18px; */
   margin-left: 140px;
-  margin-top: 370px;
+  margin-top: 520px;
   overflow: auto;
   width: 150px;
   height: 40px;
@@ -68,8 +130,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   /* text-align: center; */
 }
+/* .dv-intro-div3 {
+  position: relative;
+} */
+/* .d3-intro {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: cornflowerblue;
+  width: 30px;
+  height: 30px;
+} */
 
 
 
@@ -292,7 +366,7 @@
   /* margin-top: 40px; */
   /* margin-left: 20px; */
   font-size: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   top: 30px;
   left: 0;
   /* height: 20px; */
@@ -307,7 +381,7 @@
 .ctc-inp2 {
   position: absolute;
   font-size: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   left: 0;
   top: 30px;
 }
@@ -319,13 +393,13 @@
 .ctc-inp3 {
   position: absolute;
   font-size: 20px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   left: 0;
   top: 30px;
-  width: 550px;
+  width: 580px;
   height: 300px;
-  resize: vertical;
-  resize: horizontal;
+  resize: both;
+  /* resize: horizontal; */
 }
 .ctc-inp4 {
   position: absolute;
