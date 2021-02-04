@@ -16,11 +16,11 @@ export default function Resume() {
                     <div><Link to="/files/Kareem_Software_Engineer_resume.doc" target="_blank" style={{ color: 'inherit', textDecoration: 'none' }} download><FontAwesomeIcon icon={faFile} /></Link></div>
                 </div>
                 <div className="dv2-res-div2">
-                    <h2>
+                    <h1>
                         Besides my current competency, I believe
                         that my penchant to grow and challenge myself 
                         will be a valuable asset for any enterprise.
-                    </h2>
+                    </h1>
                 </div>
             </div>
             <div className="res-div3"></div>
